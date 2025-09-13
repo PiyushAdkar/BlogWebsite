@@ -1,0 +1,80 @@
+#Form {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    background-color: #111827; /* same bg */
+    border: 1px solid #404750ff;
+    margin: 60px auto 70px auto;
+    padding: 40px;
+    border-radius: 12px;
+    justify-content: center;
+    align-items: center;
+    width: 1000px;
+}
+
+#Form h2 {
+    font-size: 60px;
+    text-shadow:
+        0 0 5px rgba(255, 255, 255, 0.7),
+        0 0 10px rgba(255, 255, 255, 0.7),
+        0 0 20px rgba(255, 255, 255, 0.7),
+        0 0 30px rgba(18, 97, 200, 0.8);
+    color: #fff;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* Wrapper for left + right side */
+.form-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    gap: 50px;
+}
+
+/* Left side (Title, Slug, RTE) */
+#titlediv {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+/* Right side (Image + Status + Button) */
+#imagediv {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    align-items: center;
+}
+
+/* Submit Button */
+#Submit {
+    padding: 15px 25px;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: #1261c8;
+    color: #fff;
+    border: none;
+    border-radius: 50px;
+    width: 280px;
+    margin-top: 50px;
+    transition: all 0.25s ease-in-out;
+    box-shadow: 0 4px 12px rgba(18, 97, 200, 0.4);
+    letter-spacing: 0.5px;
+}
+
+#Submit:hover {
+    background-color: #649ae1;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 18px rgba(18, 97, 200, 0.6);
+    cursor: pointer;
+}
+
+#Submit:active {
+    transform: translateY(1px);
+    box-shadow: 0 2px 8px rgba(18, 97, 200, 0.4);
+}
+

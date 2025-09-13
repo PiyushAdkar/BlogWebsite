@@ -1,0 +1,21 @@
+#select
+{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+}
+#select select 
+{
+    padding: 8px;
+    background-color: white;
+    color: black;
+    border: none;
+    border-radius: 25px;
+    transition: background-color 0.2s ease;
+}
+#select select:hover
+{
+    cursor: pointer;
+    background-color: rgb(170, 168, 168);
+}

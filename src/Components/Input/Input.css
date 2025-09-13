@@ -1,0 +1,30 @@
+.custom-input {
+  padding-left: 0.75rem;   /* px-3 */
+  padding-right: 0.75rem;
+  padding-top: 0.5rem;     /* py-2 */
+  padding-bottom: 0.5rem;
+  background-color: #ffffff; /* bg-white */
+  color: #000000;          /* text-black */
+  outline: none;           /* outline-none */
+  border: 1px solid #000000; /* border border-gray-200 */
+  width: 100%;             /* w-full */
+  transition-duration: 200ms; /* duration-200 */
+  height: 23px;
+  margin-bottom: 2px;
+  font-size: 16px;
+}
+
+.custom-input:focus {
+  background-color: #f9fafb; /* focus:bg-gray-50 */
+}
+
+.custom-label {
+  display: inline-block;   /* inline-block */
+  margin-bottom: 0.25rem;  /* mb-1 (4px * 0.25 = 1 * 0.25rem = 0.25rem = 4px) */
+  padding-left: 0.25rem;   /* pl-1 */
+}
+.w-full
+{
+  margin-bottom: 9px;
+  margin-right:4px;
+}

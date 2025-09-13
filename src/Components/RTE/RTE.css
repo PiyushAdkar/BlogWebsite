@@ -1,0 +1,22 @@
+.tox-tinymce,
+.tox-tinymce .tox-editor-container,
+.tox-tinymce iframe {
+    width: 100% !important;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.rte-container .tox-tinymce,
+.rte-container .tox-editor-container,
+.rte-container iframe {
+  width: 100% !important;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  margin-left: 8px;
+  margin-top: 3px;
+  border: none;
+}

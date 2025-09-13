@@ -1,0 +1,26 @@
+html, body, #root {
+  margin: 0;
+  padding: 0;
+  height: 100%;   /* make sure everything can stretch */
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* full screen */
+}
+
+#content {
+  flex: 1;              /* expand and push footer down */
+  display: flex;        /* optional, if you want flex children inside */
+  flex-direction: column;
+  padding-top: 60px;
+  width: 1490px;  
+}
+#container
+{
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: #0D1117;
+}

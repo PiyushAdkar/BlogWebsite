@@ -1,0 +1,64 @@
+#Container
+{
+    display: flex;
+    flex-direction: column;
+    height: 700px;
+    background-color: #111827;
+    width: 600px;
+    margin-top: 70px;
+    margin-bottom: 70px;
+    margin-left: 430px;
+    border: 2px solid #3B82F6;
+    border-radius: 22px;
+    align-items: center;
+    justify-content: center;
+    color:#F9FAFB;
+}
+#heaading
+{
+    font-size: 35px;
+    margin-bottom: -2px;
+}
+#Signin
+{
+    color: rgb(168, 167, 167);
+    margin-bottom: 50px;
+}
+#Signin a
+{
+    text-decoration: none;
+    color: white;
+    text-shadow:
+  0 0 5px rgba(255, 255, 255, 0.7),
+  0 0 10px rgba(255, 255, 255, 0.7),
+  0 0 20px rgba(255, 255, 255, 0.7);
+  transition: color 0.2s ease;
+}
+#Signin a:hover {
+    color: #3a82cf;
+    text-shadow: 0 0 5px #1178d1;
+}
+#form
+{
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    margin-right: 16px;
+}
+#submit
+{
+    width: 422px;
+    margin-top: 20px;
+    padding: 10px;
+    padding-bottom: 13px;
+    padding-top: 13px;
+    background-color: rgb(58, 118, 230);
+    border: 1px solid black;
+    font-size: 15px;
+    transition: background-color 0.4s ease;
+}
+#submit:hover
+{
+    background-color:rgb(109, 151, 227);
+    cursor: pointer;
+}

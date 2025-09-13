@@ -1,0 +1,76 @@
+#footer 
+{
+    display: flex;
+    flex-direction: row;
+    background-color: #161B22;
+    height: 240px;
+    width: 100%;
+    gap: 60px;
+    align-items: center;
+    justify-content: space-evenly;
+    border-top: 1px solid rgba(150, 148, 148, 0.5);
+}
+
+.ax
+{
+    display: flex;
+    flex-direction: column;
+    height: 205px;
+    width: 180px;
+    align-items: center;
+    justify-content: center;
+    padding-left: 25px;
+    padding-right: 25px;
+    border-radius: 18px;
+    gap: 10px;
+}
+#logo
+{
+    display: flex;
+    flex-direction: row;
+    width: 500px;
+    padding-left: 30px;
+    justify-content: center;
+    align-items: center;
+    gap: 6px;
+}
+#logo span
+{
+  color: #F9FAFB;
+  font-size: 20px;
+  font-weight: 600;
+  position: relative;
+  z-index: 1;
+  text-align: center;
+  text-shadow: 
+    0 0 3px #FFD700,
+    0 0 6px #F9D423,
+    0 0 10px #FFEF8B;
+}
+.ax a {
+    text-decoration: none;
+    color: #9CA3AF;
+    font-size: 14px;
+    font-weight: 400;
+    transition: color 0.3s ease, font-size 0.1s ease-out;
+}
+
+.ax a:hover {
+    color: #FACC15;
+    font-size: 15px; 
+}
+
+.ax span 
+{
+  color: #F9FAFB;
+  font-size: 20px;
+  font-weight: 600;
+  position: relative;
+  z-index: 1;
+  text-align: center;
+  text-shadow:
+  0 0 5px rgba(255, 255, 255, 0.7),
+  0 0 10px rgba(255, 255, 255, 0.7),
+  0 0 20px rgba(255, 255, 255, 0.7);
+    margin-bottom: -15px;
+}
