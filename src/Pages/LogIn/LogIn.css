@@ -4,14 +4,17 @@
     flex-direction: column;
     height: 700px;
     background-color: #111827;
-    width: 600px;
-    margin-top: 70px;
-    margin: auto;
+    width: 90%;
+    max-width: 600px;
+    margin: 70px auto;
+    margin-bottom: 70px;
+    margin-left: 430px;
     border: 2px solid #3B82F6;
     border-radius: 22px;
     align-items: center;
     justify-content: center;
     color:#F9FAFB;
+    box-sizing: border-box;
 }
 #heaading
 {
