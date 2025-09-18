@@ -75,7 +75,7 @@ body {
     color: #fff;
     border: none;
     border-radius: 50px;
-    width: 280px;
+    width: 100%;
     margin-top: 50px;
     transition: all 0.25s ease-in-out;
     box-shadow: 0 4px 12px rgba(18, 97, 200, 0.4);
