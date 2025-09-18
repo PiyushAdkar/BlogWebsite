@@ -9,6 +9,7 @@
     align-items: center;
     justify-content: space-evenly;
     border-top: 1px solid rgba(150, 148, 148, 0.5);
+    flex-shrink: 0;
 }
 
 .ax

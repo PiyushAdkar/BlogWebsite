@@ -12,12 +12,14 @@ body {
 }
 
 #content {
-  flex: 1;              /* expand and push footer down */
-  display: flex;        /* optional, if you want flex children inside */
+  flex: 1;
+  display: flex;
   flex-direction: column;
-  padding-top: 60px;
-  width: 100%;  
-  margin:  auto;
+  padding: 60px 20px 20px; /* top padding for header */
+  width: 100%;             /* full width */
+  max-width: 1200px;       /* keeps content neat on big screens */
+  margin: 0 auto;          /* centers content horizontally */
+  box-sizing: border-box;
 }
 #container
 {
