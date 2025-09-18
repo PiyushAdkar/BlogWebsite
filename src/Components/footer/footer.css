@@ -21,9 +21,7 @@
     height: auto;
     align-items: center;
     justify-content: center;
-    padding-left: 25px;
-    padding-right: 25px;
-    padding-top: 25px;
+    padding: 25px;
     border-radius: 18px;
     gap: 10px;
     flex: 0 0 auto;
