@@ -30,7 +30,7 @@ const Login = ()=>{
     }
 
     return (
-        <div id='Container' style={{backgroundColor:"#111827", border:"1px solid #404750ff", margin:"auto", marginTop:"60px"}}>
+        <div id='Container' style={{backgroundColor:"#111827", border:"1px solid #404750ff", margin:"auto"}}>
             {Error && <p style={{color:"red", fontSize:"13px" , marginTop:"-60px", marginBottom:"30px"}}>{Error}</p>}
             <img src={Logo} style={{height:"65px", marginBottom:"-9px"}}/>
             <h2 id="heaading">Sign-In to your Account</h2>
