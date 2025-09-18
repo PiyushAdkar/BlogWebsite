@@ -1,68 +1,67 @@
-#Container {
+#Container
+{
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
-
+    height: 700px;
+    background-color: #111827;
     width: 90%;
     max-width: 600px;
-    min-height: 80vh;  /* center vertically on most screens */
-    
-    margin: 10px auto;  /* horizontal centering + top/bottom spacing */
+    margin: 70px auto;
+    min-height: 80vh; 
+    margin-left: 430px;
     border: 2px solid #3B82F6;
     border-radius: 22px;
-    background-color: #111827;
-    color: #F9FAFB;
+    align-items: center;
+    justify-content: center;
+    color:#F9FAFB;
     box-sizing: border-box;
-    padding: 30px; /* inner spacing */
+    padding: 30px;
 }
-
-#heaading {
+#heaading
+{
     font-size: 35px;
-    margin-bottom: 10px;
-    text-align: center;
+    margin-bottom: -2px;
 }
-
-#Signin {
+#Signin
+{
     color: rgb(168, 167, 167);
-    margin-bottom: 30px;
-    text-align: center;
+    margin-bottom: 50px;
 }
-
-#Signin a {
+#Signin a
+{
     text-decoration: none;
     color: white;
     text-shadow:
-        0 0 5px rgba(255, 255, 255, 0.7),
-        0 0 10px rgba(255, 255, 255, 0.7),
-        0 0 20px rgba(255, 255, 255, 0.7);
-    transition: color 0.2s ease;
+  0 0 5px rgba(255, 255, 255, 0.7),
+  0 0 10px rgba(255, 255, 255, 0.7),
+  0 0 20px rgba(255, 255, 255, 0.7);
+  transition: color 0.2s ease;
 }
-
 #Signin a:hover {
     color: #3a82cf;
     text-shadow: 0 0 5px #1178d1;
 }
-
-#form {
-    display: flex;
-    flex-direction: column;
+#form
+{
+    justify-content: center;
     align-items: center;
-    width: 100%;
-    max-width: 400px;
+    width: 400px;
+    margin-right: 16px;
 }
-
-#submit {
-    width: 100%;
-    padding: 12px 0;
+#submit
+{
+    width: 422px;
     margin-top: 20px;
+    padding: 10px;
+    padding-bottom: 13px;
+    padding-top: 13px;
     background-color: rgb(58, 118, 230);
     border: 1px solid black;
     font-size: 15px;
     transition: background-color 0.4s ease;
-    cursor: pointer;
 }
-
-#submit:hover {
-    background-color: rgb(109, 151, 227);
+#submit:hover
+{
+    background-color:rgb(109, 151, 227);
+    cursor: pointer;
 }
