@@ -20,7 +20,8 @@ body {
   max-width: 1200px;       
   margin: auto;          
   margin-top: 60.80px;
-  padding: 60px;
+  padding: 20px;
+  box-sizing: border-box;
 }
 #container
 {
@@ -29,4 +30,17 @@ body {
   width: 100%;
   min-height: 100vh;
   background-color: rgb(35, 40, 47);
+}
+
+@media (max-width: 768px) {
+  #content {
+    padding: 12px;
+  }
+}
+
+/* Small screens */
+@media (max-width: 480px) {
+  #content {
+    padding: 8px;
+  }
 }
