@@ -18,8 +18,8 @@ body {
   justify-content: center;
   width: 100%;             /* full width */
   max-width: 1200px;       /* keeps content neat on big screens */
-  margin: 0 auto;          /* centers content horizontally */
-  box-sizing: border-box;
+  margin: auto;          /* centers content horizontally */
+  padding: 60.80px;
 }
 #container
 {
