@@ -80,6 +80,7 @@ body {
     transition: all 0.25s ease-in-out;
     box-shadow: 0 4px 12px rgba(18, 97, 200, 0.4);
     letter-spacing: 0.5px;
+     box-sizing: border-box;
 }
 
 .btn:hover {
