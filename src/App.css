@@ -1,7 +1,7 @@
 html, body, #root {
   margin: 0;
   padding: 0;
-  height: 100%;   /* make sure everything can stretch */
+  height: 100%;   
 }
 
 body {
@@ -16,9 +16,9 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  width: 100%;             /* full width */
-  max-width: 1200px;       /* keeps content neat on big screens */
-  margin: auto;          /* centers content horizontally */
+  width: 100%;
+  max-width: 1200px;       
+  margin: auto;          
   margin-top: 60.80px;
   padding: 60px;
 }
@@ -26,7 +26,7 @@ body {
 {
   display: flex;
   flex-direction: column;
-  width: 100vw;
+  width: 100%;
   min-height: 100vh;
   background-color: rgb(35, 40, 47);
 }
