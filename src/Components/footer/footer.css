@@ -3,13 +3,13 @@
     display: flex;
     flex-direction: row;
     background-color: #161B22;
-    height: 240px;
     width: 100%;
     gap: 60px;
     align-items: center;
     justify-content: space-evenly;
     border-top: 1px solid rgba(150, 148, 148, 0.5);
     flex-shrink: 0;
+    height: auto;   
     flex-wrap: nowrap;
 }
 
@@ -17,14 +17,16 @@
 {
     display: flex;
     flex-direction: column;
-    height: 205px;
     width: 180px;
+    height: auto;
     align-items: center;
     justify-content: center;
     padding-left: 25px;
     padding-right: 25px;
     border-radius: 18px;
     gap: 10px;
+    flex: 0 0 auto;
+    min-width: 140px; 
 }
 #logo
 {
