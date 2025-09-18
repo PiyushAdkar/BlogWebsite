@@ -16,7 +16,7 @@ const Header = ()=> {
             active: true
         },
         {
-            name:"Log-In",
+            name:"LogIn",
             path:"/LogIn",
             active: !authStatus
         },
