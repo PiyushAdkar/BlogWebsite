@@ -8,7 +8,7 @@
     max-width: 600px;
     min-height: 80vh;  /* center vertically on most screens */
     
-    margin: 70px auto;  /* horizontal centering + top/bottom spacing */
+    margin: 10px auto;  /* horizontal centering + top/bottom spacing */
     border: 2px solid #3B82F6;
     border-radius: 22px;
     background-color: #111827;
