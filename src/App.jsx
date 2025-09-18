@@ -56,19 +56,19 @@ function App() {
   {
     return(
         <div id='container'>
-          <Header/>
-          <main id='content'>
-            <ScrollToTop/>
-              <Routes>
-                <Route path="/" element={<Home />} />
-                <Route path="/LogIn" element={<Protected authentication={false}><Login /></Protected>} />
-                <Route path="/SignUp" element={<Protected authentication={false}><SignUp /></Protected>} />
-                <Route path="/AddPost" element={<Protected authentication={true}><AddPost /></Protected>} />
-                <Route path="/AllPosts" element={<Protected authentication={true}><AllPosts /></Protected>} />
-                <Route path="/Post/:id" element={<Protected authentication={true}><PostSubmit /></Protected>} />
-              </Routes>
-          </main>
-          <Footer/>
+        <Header/>
+        <main id='content'>
+          <ScrollToTop/>
+            <Routes>
+              <Route path="/" element={<Home />} />
+              <Route path="/LogIn" element={<Protected authentication={false}><Login /></Protected>} />
+              <Route path="/SignUp" element={<Protected authentication={false}><SignUp /></Protected>} />
+              <Route path="/AddPost" element={<Protected authentication={true}><AddPost /></Protected>} />
+              <Route path="/AllPosts" element={<Protected authentication={true}><AllPosts /></Protected>} />
+              <Route path="/Post/:id" element={<Protected authentication={true}><PostSubmit /></Protected>} />
+            </Routes>
+        </main>
+        <Footer/>
         </div>
     )
   }
