@@ -1,30 +1,46 @@
 .custom-input {
-  padding-left: 0.75rem;   /* px-3 */
-  padding-right: 0.75rem;
-  padding-top: 0.5rem;     /* py-2 */
-  padding-bottom: 0.5rem;
-  background-color: #ffffff; /* bg-white */
-  color: #000000;          /* text-black */
-  outline: none;           /* outline-none */
-  border: 1px solid #000000; /* border border-gray-200 */
-  width: 100%;             /* w-full */
-  transition-duration: 200ms; /* duration-200 */
-  height: 23px;
-  margin-bottom: 2px;
-  font-size: 16px;
+  width: 100%;             /* full width of parent */
+  max-width: 100%;         /* ensures it never overflows */
+  padding: 0.5rem 0.75rem; /* py-2 px-3 */
+  background-color: #ffffff;
+  color: #000000;
+  outline: none;
+  border: 1px solid #000000;
+  transition: all 0.2s ease;
+  font-size: 1rem;         /* responsive font */
+  box-sizing: border-box;  /* include padding in width */
+  margin-bottom: 8px;
+  height: auto;            /* let it scale with padding */
+  border-radius: 6px;      /* optional, looks smoother */
 }
 
 .custom-input:focus {
-  background-color: #f9fafb; /* focus:bg-gray-50 */
+  background-color: #f9fafb;
+  border-color: #3B82F6; /* optional: focus highlight */
 }
 
 .custom-label {
-  display: inline-block;   /* inline-block */
-  margin-bottom: 0.25rem;  /* mb-1 (4px * 0.25 = 1 * 0.25rem = 0.25rem = 4px) */
-  padding-left: 0.25rem;   /* pl-1 */
+  display: block;         /* full width label */
+  margin-bottom: 0.25rem;
+  font-size: 0.9rem;      /* responsive font */
+  padding-left: 0.25rem;
+  color: #e5e7eb;
 }
-.w-full
-{
-  margin-bottom: 9px;
-  margin-right:4px;
+
+.w-full {
+  width: 100%;
+  margin-bottom: 8px;
+  box-sizing: border-box;
+}
+
+/* Mobile tweaks */
+@media (max-width: 480px) {
+  .custom-input {
+    font-size: 0.9rem;
+    padding: 0.4rem 0.6rem;
+  }
+
+  .custom-label {
+    font-size: 0.8rem;
+  }
 }

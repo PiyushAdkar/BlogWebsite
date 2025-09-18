@@ -1,6 +1,4 @@
-
-#Container
-{
+#Container {
     display: flex;
     flex-direction: column;
     background-color: #111827;
@@ -10,54 +8,100 @@
     border: 2px solid #3B82F6;
     justify-content: center;
     border-radius: 22px;
-    color:#F9FAFB;
+    color: #F9FAFB;
     padding: 30px;
+    box-sizing: border-box;
+    margin: auto;
 }
-#heaading
-{
-    font-size: 35px;
-    margin-bottom: -2px;
+
+#heaading {
+    font-size: 2.2rem; 
+    margin-bottom: 8px;
 }
-#Signin
-{
+
+#Signin {
     color: rgb(168, 167, 167);
-    margin-bottom: 50px;
+    margin-bottom: 30px;
 }
-#Signin a
-{
+
+#Signin a {
     text-decoration: none;
     color: white;
     text-shadow:
-  0 0 5px rgba(255, 255, 255, 0.7),
-  0 0 10px rgba(255, 255, 255, 0.7),
-  0 0 20px rgba(255, 255, 255, 0.7);
-  transition: color 0.2s ease;
+      0 0 5px rgba(255, 255, 255, 0.7),
+      0 0 10px rgba(255, 255, 255, 0.7),
+      0 0 20px rgba(255, 255, 255, 0.7);
+    transition: color 0.2s ease;
 }
+
 #Signin a:hover {
     color: #3a82cf;
     text-shadow: 0 0 5px #1178d1;
 }
-#form
-{
+
+#form {
+    display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 400px;
-    margin-right: 16px;
+    width: 100%;
+    max-width: 400px; 
+    margin: 0 auto;
+    box-sizing: border-box;
 }
-#submit
-{
-    width: 422px;
+
+#submit {
+    width: 100%; 
+    max-width: 100%;
     margin-top: 20px;
-    padding: 10px;
-    padding-bottom: 13px;
-    padding-top: 13px;
+    padding: 12px 0;
     background-color: rgb(58, 118, 230);
     border: 1px solid black;
-    font-size: 15px;
+    font-size: 1rem;
     transition: background-color 0.4s ease;
+    border-radius: 8px;
 }
-#submit:hover
-{
-    background-color:rgb(109, 151, 227);
+
+#submit:hover {
+    background-color: rgb(109, 151, 227);
     cursor: pointer;
+}
+
+
+@media (max-width: 768px) {
+    #Container {
+        padding: 20px;
+    }
+
+    #heaading {
+        font-size: 1.8rem;
+    }
+
+    #Signin {
+        margin-bottom: 20px;
+    }
+
+    #form {
+        width: 90%;
+    }
+}
+
+@media (max-width: 480px) {
+    #Container {
+        padding: 12px;
+        min-height: auto;
+    }
+
+    #heaading {
+        font-size: 1.5rem;
+    }
+
+    #form {
+        width: 100%;
+    }
+
+    #submit {
+        padding: 10px 0;
+        font-size: 0.9rem;
+    }
 }
