@@ -6,7 +6,7 @@ const Footer = ()=> {
         <div id='footer'>
             <div id='logo'>
                 <img src={logo} style={{height:"70px"}}/>
-                <span style={{fontWeight:"bolder", color:"white", fontSize:"30px"}}>MyBlog</span>
+                <span>MyBlog</span>
             </div>
             <div className='ax'>
                 <span>Company</span>

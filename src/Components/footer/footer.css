@@ -1,80 +1,81 @@
-#footer 
-{
-    display: flex;
-    flex-direction: row;
-    background-color: #161B22;
-    width: 100vw;
-    gap: 60px;
-    align-items: center;
-    justify-content: space-evenly;
-    border-top: 1px solid rgba(150, 148, 148, 0.5);
-    flex-shrink: 0;
-    height: auto;   
-    flex-wrap: nowrap;
+#footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: nowrap;          
+  padding: 2rem;
+  background-color: rgb(15, 19, 24);
+  color: white;
+  gap: 2rem;
+  border-top: 3px solid rgb(71, 73, 76);
 }
 
-.ax
-{
-    display: flex;
-    flex-direction: column;
-    width: 180px;
-    height: auto;
-    align-items: center;
-    justify-content: center;
-    padding: 25px;
-    padding-bottom: 25px;
-    border-radius: 18px;
-    gap: 10px;
-    flex: 0 0 auto;
-    min-width: 140px; 
+
+#footer #logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
 }
-#logo
-{
-    display: flex;
-    flex-direction: row;
-    width: 500px;
-    padding-left: 30px;
-    justify-content: center;
-    align-items: center;
-    gap: 6px;
-}
-#logo span
-{
+
+#footer #logo span {
+  font-weight: bolder;
+  font-size: 30px;
   color: #F9FAFB;
-  font-size: 20px;
-  font-weight: 600;
-  position: relative;
-  z-index: 1;
-  text-align: center;
-  text-shadow: 
+    text-shadow: 
     0 0 3px #FFD700,
     0 0 6px #F9D423,
     0 0 10px #FFEF8B;
-}
-.ax a {
-    text-decoration: none;
-    color: #9CA3AF;
-    font-size: 14px;
-    font-weight: 400;
-    transition: color 0.3s ease, font-size 0.1s ease-out;
-}
-
-.ax a:hover {
-    color: #FACC15;
-    font-size: 15px; 
-}
-
-.ax span 
-{
-  color: #F9FAFB;
-  font-size: 20px;
-  font-weight: 600;
-  position: relative;
-  z-index: 1;
   text-align: center;
-  text-shadow:
+}
+
+
+#footer .ax {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+}
+
+#footer .ax span {
+  font-weight: bold;
+  font-size: 18px;
+  margin-bottom: 0.5rem;
+    text-shadow:
   0 0 5px rgba(255, 255, 255, 0.7),
   0 0 10px rgba(255, 255, 255, 0.7),
   0 0 20px rgba(255, 255, 255, 0.7);
-    margin-bottom: -15px;
+
+}
+
+
+#footer .ax a {
+  color: white;
+  text-decoration: none;
+  transition: all 0.17s ease-in-out;
+}
+
+#footer .ax a:hover {
+  color: #ffcb3a;
+  transform: scale(1.05);
+}
+
+
+@media (max-width: 768px) {
+  #footer {
+    flex-direction: column;   
+    align-items: center;
+    text-align: center;
+  }
+
+  #footer .ax {
+    align-items: center;
+  }
+
+  #footer #logo {
+    flex-direction: column;
+  }
+
+  #footer #logo span {
+    font-size: 22px;          
+  }
 }
