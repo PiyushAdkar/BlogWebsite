@@ -48,7 +48,7 @@ const Header = ()=> {
                 <span>MyBlog</span>
                 {userData?<p id="userName">{userData.name}</p>:null }
             </div>
-            <nav>
+            <nav id='nav'>
                 <ul className="nav-list">
                 {navItems.map((item, index) =>
                     item.active ? (
