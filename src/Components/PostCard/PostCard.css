@@ -1,7 +1,17 @@
+#postgrid
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; 
+    padding-top: 3rem;
+}
+
 #postcard
 {
     text-decoration: none;
     color: white;
+    display: block;
+    
 }
 #postcard img
 {
@@ -19,7 +29,6 @@
     border: 1px solid #374151;
     border-radius: 10px;
     padding: 8px;
-    margin: 15px;
     transition: background-color 0.15s ease, border 0.15s ease;
     overflow: hidden;
 }

@@ -43,7 +43,7 @@ const Header = ()=> {
 
     return (
         <header id='header'>
-            <div id='Logo' onClick={handleLogoClick} style={{ cursor: "pointer" }}>
+            <div id='Logo' onClick={handleLogoClick} style={{ cursor: "pointer"}}>
                 <img src={Logo} style={{height:"28px"}}></img>
                 <span>MyBlog</span>
                 {userData?<p id="userName">{userData.name}</p>:null }

@@ -19,15 +19,18 @@ const PostCard = ({featuredImg, $id, title, userName})=> {
 }, [featuredImg])
 
     return(
-        <Link to={`/Post/${$id}`} id='postcard'>
-            <div id="PostContain">
-                <p id='title'style={{fontWeight:"bold"}}>{title}</p>
-                <div>
-                    <img src={preview} alt="FeaturedImage" /> 
+        <div id='postgrid'>
+            <Link to={`/Post/${$id}`} id='postcard'>
+                <div id="PostContain">
+                    <p id='title'style={{fontWeight:"bold"}}>{title}</p>
+                    <div>
+                        <img src={preview} alt="FeaturedImage" /> 
+                    </div>
+                    <p style={{color:"silver"}}>{userName}</p>
                 </div>
-                <p style={{color:"silver"}}>{userName}</p>
-            </div>
-        </Link>
+            </Link>
+        </div>
+        
     )
 }
 

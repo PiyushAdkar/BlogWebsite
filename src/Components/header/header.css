@@ -8,18 +8,19 @@
     justify-content: space-between;
     align-items: center;
     width: 100%;
-    height: 4.6875rem; /* 75px */
+    height: 4rem; 
     background-color: rgba(22, 27, 34, 0.7);
     border-bottom: 1px solid rgba(150, 148, 148, 0.5);
     backdrop-filter: blur(4px);
     flex-wrap: wrap;
-    padding: 0.625rem 1rem; /* 10px 16px */
+    padding: 10px;
     box-sizing: border-box;
 }
 
 /* Logo */
 #Logo {
     display: flex;
+    flex-direction: row;
     align-items: center;
     justify-content: center;
     gap: 0.1875rem; /* 3px */
@@ -52,8 +53,10 @@
     font-weight: 600;
     font-size: 0.9375rem; 
     color: white;
-    margin-left: 3.125rem;
+    margin-left: 0.75rem;
     flex-shrink: 1; 
+     align-items: center; 
+     display: flex;
 }
 
 /* Nav list */
@@ -133,6 +136,7 @@
     .nav-list {
         width: 100%;
         display: flex;
+        flex-wrap: wrap;
         justify-content: center;  
         align-content: center;     
         gap: 0.5rem;
