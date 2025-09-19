@@ -44,7 +44,7 @@ const Login = ()=>{
             <img src={Logo}/>
             <h2 id="heaading">Sign-In to your Account</h2>
             <p id='Signin'>Don't have any account?  <Link to='/SignUp'>Sign-Up Now</Link></p>
-            <form id='form' onSubmit={handleSubmit(login)} style={{margin: "0 auto;"}}>
+            <form id='form' onSubmit={handleSubmit(login)} style={{marginTop: "0px", marginLeft:"auto", marginRight:"auto"}}>
                 <Input label="Email" type="email" placeholder="abcd@gmail.com" {...register("email", {required:true})}/>
                 <Input label='Password' type="password" placeholder="Password" {...register("password", {required:true})}/>
                 <button type='submit' id='submit' >Sign-In</button>
