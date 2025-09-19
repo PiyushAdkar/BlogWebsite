@@ -32,7 +32,7 @@ const SignUp = ()=>{
     return (
         <div id='Container'>
             {Error && <p style={{color:"red", fontSize:"13px" , marginTop:"-60px", marginBottom:"30px"}}>{Error}</p>}
-            <img src={Logo} style={{height:"65px", marginBottom:"-9px"}}/>
+            <img src={Logo}/>
             <h2 id="heaading">Sign-Up to create Account</h2>
             <p id='Signin'>Already have an account?  <Link to='/LogIn'>Sign-In Now</Link></p>
             <form id='form' onSubmit={handleSubmit(signUp)}>
