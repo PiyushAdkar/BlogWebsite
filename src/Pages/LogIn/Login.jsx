@@ -30,12 +30,21 @@ const Login = ()=>{
     }
 
     return (
-        <div id='Container' style={{backgroundColor:"#111827", border:"1px solid #404750ff", margin:"auto"}}>
+        <div id='Container' style={{
+                                    width: "97%",         
+                                    maxWidth: "600px",    
+                                    minWidth: "280px",    
+                                    margin: "2rem auto",  
+                                    padding: "20px",
+                                    boxSizing: "border-box",
+                                    minHeight: "80vh",
+                                    textAlign:"center"
+                                }}>
             {Error && <p style={{color:"red", fontSize:"13px" , marginTop:"-60px", marginBottom:"30px"}}>{Error}</p>}
-            <img src={Logo} style={{height:"65px", marginBottom:"-9px"}}/>
+            <img src={Logo}/>
             <h2 id="heaading">Sign-In to your Account</h2>
             <p id='Signin'>Don't have any account?  <Link to='/SignUp'>Sign-Up Now</Link></p>
-            <form id='form' onSubmit={handleSubmit(login)} style={{margin:"0 auto"}}>
+            <form id='form' onSubmit={handleSubmit(login)} style={{margin: "0 auto;"}}>
                 <Input label="Email" type="email" placeholder="abcd@gmail.com" {...register("email", {required:true})}/>
                 <Input label='Password' type="password" placeholder="Password" {...register("password", {required:true})}/>
                 <button type='submit' id='submit' >Sign-In</button>

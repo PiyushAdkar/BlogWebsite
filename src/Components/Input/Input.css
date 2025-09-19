@@ -11,7 +11,8 @@
   box-sizing: border-box;  /* include padding in width */
   margin-bottom: 8px;
   height: auto;            /* let it scale with padding */
-  border-radius: 6px;      /* optional, looks smoother */
+  border-radius: 6px;  
+  box-sizing: border-box;    /* optional, looks smoother */
 }
 
 .custom-input:focus {
