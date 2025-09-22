@@ -38,7 +38,8 @@ const Login = ()=>{
                                     padding: "20px",
                                     boxSizing: "border-box",
                                     minHeight: "80vh",
-                                    textAlign:"center"
+                                    textAlign:"center",
+                                    backgroundColor:"#1E293B"
                                 }}>
             {Error && <p style={{color:"red", fontSize:"13px" , marginTop:"-60px", marginBottom:"30px"}}>{Error}</p>}
             <img src={Logo}/>

@@ -26,7 +26,7 @@ const PostCard = ({featuredImg, $id, title, userName})=> {
                     <div>
                         <img src={preview} alt="FeaturedImage" /> 
                     </div>
-                    <p style={{color:"silver"}}>{userName}</p>
+                    <p>{userName}</p>
                 </div>
             </Link>
         </div>

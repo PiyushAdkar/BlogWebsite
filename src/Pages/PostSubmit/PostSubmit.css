@@ -1,7 +1,7 @@
 #showpost {
   display: flex;
   flex-direction: column;
-  background-color: rgb(0, 0, 0);
+  background-color: #1E293B;
   max-width: 900px;        /* instead of fixed width */
   width: 95%;              /* relative to screen */
   margin: 50px auto;
@@ -38,7 +38,7 @@
   padding: 12px 20px;
   font-size: clamp(14px, 1.8vw, 18px);
   font-weight: 600;
-  background-color: #1261c8;
+  background-color: #006494;
   color: #fff;
   border: none;
   border-radius: 50px;
@@ -50,7 +50,7 @@
 }
 
 #showpost button:hover {
-  background-color: #649ae1;
+  background-color: #0d97d7;
   transform: translateY(-2px);
   box-shadow: 0 6px 18px rgba(18, 97, 200, 0.6);
   cursor: pointer;

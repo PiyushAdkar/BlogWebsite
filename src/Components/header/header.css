@@ -1,4 +1,5 @@
 /* Header container */
+
 #header {
     top: 0;
     z-index: 1000;
@@ -9,12 +10,16 @@
     align-items: center;
     width: 100%;
     height: 4rem; 
-    background-color: rgba(22, 27, 34, 0.7);
+    background-color: rgba(11, 23, 35, 0.8);
     border-bottom: 1px solid rgba(150, 148, 148, 0.5);
     backdrop-filter: blur(4px);
     flex-wrap: wrap;
     padding: 0 1rem;
     box-sizing: border-box;
+      font-family: "SUSE Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
 }
 
 /* Logo */
@@ -89,6 +94,10 @@
         0 0 0.625rem rgba(255, 255, 255, 0.7),
         0 0 1.25rem rgba(255, 255, 255, 0.7);
     transition: color 0.6s ease, text-shadow 0.2s ease;
+    font-family: "SUSE Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
 }
 
 .nav-link button:hover {
@@ -106,6 +115,10 @@
     position: relative;
     z-index: 1;
     text-align: center;
+    font-family: "SUSE Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
 }
 
 @media (max-width: 480px) {

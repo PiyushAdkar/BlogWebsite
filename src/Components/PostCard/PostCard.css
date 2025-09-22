@@ -21,7 +21,7 @@
 #PostContain {
     display: flex;
     flex-direction: column;
-    background-color: #1e293be0;
+    background-color: #3a4d6d;
     width: 220px;
     height: 200px;
     justify-content: space-between; 
@@ -29,7 +29,7 @@
     border: 1px solid #374151;
     border-radius: 10px;
     padding: 8px;
-    transition: background-color 0.15s ease, border 0.15s ease;
+    transition: background-color 0.15s ease, border 0.15s ease, transform 0.3s;
     overflow: hidden;
 }
 #PostContain img {
@@ -41,7 +41,8 @@
 }
 #PostContain:hover
 {
-    background-color: #374151;
+    transform: scale(1.10);
+    background-color: #4b5c7c;
     border: 1px solid rgb(64, 63, 63);
 }
 #title {
@@ -63,7 +64,7 @@
       0 0 20px rgba(255, 255, 255, 0.7);
 }
 #PostContain p:last-child {
-    color: silver;
+    color: rgb(226, 226, 226);
     font-size: 13px;
     margin-top: 4px;
     margin-bottom: 2px;

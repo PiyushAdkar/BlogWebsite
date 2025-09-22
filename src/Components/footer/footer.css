@@ -4,10 +4,14 @@
   align-items: center;
   flex-wrap: nowrap;          
   padding: 2rem;
-  background-color: rgb(15, 19, 24);
+  background-color: #111620;
   color: white;
   gap: 2rem;
   border-top: 3px solid rgb(71, 73, 76);
+  font-family: "SUSE Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
 }
 
 

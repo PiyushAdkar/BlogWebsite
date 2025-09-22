@@ -78,7 +78,7 @@ body {
     padding: 15px 25px;
     font-size: 18px;
     font-weight: 600;
-    background-color: #1261c8;
+    background-color: #006494;
     color: #fff;
     border: none;
     border-radius: 50px;
@@ -438,7 +438,7 @@ body {
     padding: 15px 25px;
     font-size: 18px;
     font-weight: 600;
-    background-color: #1261c8;
+    background-color: #006494;
     color: #fff;
     border: none;
     border-radius: 50px;
@@ -450,7 +450,7 @@ body {
 }
 
 .btn:hover {
-    background-color: #649ae1;
+    background-color: #0478ae;
     transform: translateY(-2px);
     box-shadow: 0 6px 18px rgba(18, 97, 200, 0.6);
     cursor: pointer;
@@ -470,7 +470,7 @@ body {
 .section h2 {
   font-size: 32px;
   font-weight: bold;
-  color: #fff;
+  color: #1a1e21;
   margin-bottom: 32px;
 }
 
@@ -556,13 +556,13 @@ body {
 
 .header-content h1 {
   font-size: 2.5rem;
-  color: #c2d4e6;
+  color: #1a1e21;
   margin-bottom: 0.5rem;
 }
 
 .header-content p {
   font-size: 1.1rem;
-  color: #bcc6c7;
+  color: #262b30;
 }
 
 .action-buttons {
@@ -572,7 +572,7 @@ body {
 }
 
 .action-buttons button {
-  padding: 12px 25px;
+  padding: 15px 30px;
   font-size: 1rem;
   font-weight: 600;
   border: none;
@@ -585,24 +585,24 @@ body {
 }
 
 .add-post-btn {
-  background-color: #3498db;
+  background-color: #006494;
   color: white;
 }
 
 .add-post-btn:hover {
-  background-color: #2980b9;
-  transform: translateY(-2px);
+  background-color: #006494;
+  transform: translateY(-3px);
 }
 
 .view-posts-btn {
-  background-color: #ecf0f1;
+  background-color: #ffffff;
   color: #34495e;
   border: 1px solid #bdc3c7;
 }
 
 .view-posts-btn:hover {
-  background-color: #dfe4e7;
-  transform: translateY(-2px);
+  background-color: #ffffff;
+  transform: translateY(-3px);
 }
 
 /* Stats Section */
@@ -613,7 +613,7 @@ body {
 
 .stats-section h2 {
   font-size: 1.8rem;
-  color: #c2d4e6;
+  color: #1a1e21;
   margin-bottom: 30px;
 }
 
@@ -624,7 +624,7 @@ body {
 }
 
 .card {
-  background-color: #1E293B;
+  background-color: #31435f;
   padding: 25px;
   border-radius: 12px;
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
@@ -632,7 +632,7 @@ body {
 }
 
 .card:hover {
-  transform: translateY(-5px);
+  transform: scale(1.103);
   box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
 }
 

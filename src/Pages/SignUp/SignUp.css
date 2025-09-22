@@ -4,7 +4,7 @@
     flex-direction: column;
     height: 700px;
     width: 97%;
-    background-color: #111827;
+    background-color: #1E293B;
     max-width: 600px;
     min-width: 280px;
     min-height: 80vh; 
@@ -68,14 +68,14 @@
     padding: 10px;
     padding-bottom: 13px;
     padding-top: 13px;
-    background-color: rgb(58, 118, 230);
+    background-color: #006494;
     border: 1px solid black;
     font-size: 1rem;
     transition: background-color 0.4s ease;
 }
 #submit:hover
 {
-    background-color:rgb(109, 151, 227);
+    background-color: #0d97d7;
     cursor: pointer;
 }
 

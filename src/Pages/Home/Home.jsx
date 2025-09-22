@@ -104,7 +104,7 @@ const Home = () => {
       {/* AI Blog Idea Generator */}
       <div className="section">
         <h2>Spark Your Next Idea ✨</h2>
-        <p>Tap the button to get a fresh, AI-powered blog post idea.</p>
+        <p style={{color:"#262b30"}}>Tap the button to get a fresh, AI-powered blog post idea.</p>
         <button onClick={generateBlogIdea} className="btn" disabled={isLoading}>
           {isLoading ? "Generating..." : "Generate Idea"}
         </button>
