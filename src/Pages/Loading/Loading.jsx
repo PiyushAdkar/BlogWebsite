@@ -1,4 +1,4 @@
-import loadingImage from '../../Images/load.png';
+import loadingImage from '../../Images/loading-svgrepo-com.svg';
 import '../Loading/Loading.css'
 const Loading = () => {
     return (
@@ -14,10 +14,10 @@ const Loading = () => {
             <img
                 src={loadingImage}
                 alt="Loading..."
-                style={{ height: '50px', width: '50px' }}
+                style={{ height: '20px', width: '50px' }}
                 className='rotate'
             />
-            <span style={{color:"white"}}>Loading</span>
+            <span style={{color:"#111620"}}>Loading</span>
         </div>
     );
 };
