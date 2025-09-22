@@ -34,11 +34,14 @@ body {
   }
 }
 .hero {
+  display: flex;
+  flex-direction: column;
   width: 100%;
   max-width: 700px;
   text-align: center;
   background: #1E293B;
   border: 1px solid #374151;
+  align-items: center;
   border-radius: 16px;
   padding: 40px;
   margin: 120px auto 48px;
