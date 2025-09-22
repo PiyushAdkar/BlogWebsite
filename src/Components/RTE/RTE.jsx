@@ -39,6 +39,10 @@ export default function RTE({name, control, label, defaultValue = ''})
                         "bold italic underline | alignleft aligncenter " +
                         "alignright alignjustify | bullist numlist outdent indent | " +
                         "removeformat | help",
+                         mobile: {
+                            menubar: true,
+                            toolbar: "undo redo | bold italic underline | alignleft aligncenter alignright | bullist numlist | removeformat"
+                        }
                     }}
                     value={field.value} 
                 onEditorChange={field.onChange}
