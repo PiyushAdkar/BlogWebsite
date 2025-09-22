@@ -2,18 +2,20 @@
     display: flex;
     flex-direction: column;
     gap: 40px;
-    background-color: #111827; /* same bg */
+    background-color: #111827;
     border: 1px solid #404750ff;
-    margin: 60px auto 70px auto;
-    padding: 40px;
+    margin: 40px auto;
+    padding: 30px;
     border-radius: 12px;
     justify-content: center;
     align-items: center;
-    width: 1000px;
+    width: 100%;
+    max-width: 1000px; /* Desktop cap */
+    box-sizing: border-box;
 }
 
 #Form h2 {
-    font-size: 60px;
+    font-size: clamp(28px, 6vw, 60px); /* scales with screen */
     text-shadow:
         0 0 5px rgba(255, 255, 255, 0.7),
         0 0 10px rgba(255, 255, 255, 0.7),
@@ -24,7 +26,6 @@
     text-align: center;
 }
 
-/* Wrapper for left + right side */
 .form-content {
     display: flex;
     flex-direction: row;
@@ -33,7 +34,7 @@
     gap: 50px;
 }
 
-/* Left side (Title, Slug, RTE) */
+/* Left side */
 #titlediv {
     flex: 2;
     display: flex;
@@ -41,7 +42,7 @@
     gap: 25px;
 }
 
-/* Right side (Image + Status + Button) */
+/* Right side */
 #imagediv {
     flex: 1;
     display: flex;
@@ -59,8 +60,9 @@
     color: #fff;
     border: none;
     border-radius: 50px;
-    width: 280px;
-    margin-top: 50px;
+    width: 100%;
+    max-width: 280px;
+    margin-top: 40px;
     transition: all 0.25s ease-in-out;
     box-shadow: 0 4px 12px rgba(18, 97, 200, 0.4);
     letter-spacing: 0.5px;
@@ -78,3 +80,45 @@
     box-shadow: 0 2px 8px rgba(18, 97, 200, 0.4);
 }
 
+/* ---------------- RESPONSIVE ---------------- */
+@media (max-width: 900px) {
+    .form-content {
+        flex-direction: column;
+        gap: 35px;
+    }
+
+    #titlediv, #imagediv {
+        flex: unset;
+        width: 100%;
+    }
+
+    #imagediv {
+        align-items: flex-start; /* image + status aligned left */
+    }
+
+    #Submit {
+        align-self: center;
+    }
+}
+
+@media (max-width: 600px) {
+    #Form {
+        padding: 20px;
+        margin: 20px auto;
+        gap: 25px;
+    }
+
+    #Form h2 {
+        font-size: clamp(24px, 8vw, 36px);
+    }
+
+    #Submit {
+        font-size: 16px;
+        padding: 12px 20px;
+    }
+
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+}

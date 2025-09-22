@@ -15,8 +15,39 @@
   width: 100% !important;
   box-sizing: border-box;
   margin: 0;
-  padding: 0;
-  margin-left: 8px;
+  padding: 0;   
   margin-top: 3px;
   border: none;
+}
+
+/* RTE wrapper */
+.rte-container {
+  width: 100%;
+  min-height: 250px; /* ensures it doesn't collapse */
+  box-sizing: border-box;
+}
+
+/* TinyMCE editor */
+.rte-container .tox-tinymce {
+  width: 100% !important;
+  min-height: 300px; /* mobile-safe */
+  margin-top: 8px;
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+/* Editor iframe */
+.rte-container iframe {
+  width: 100% !important;
+  min-height: 250px; /* ensures content area is visible */
+}
+
+/* Mobile tweaks */
+@media (max-width: 600px) {
+  .rte-container .tox-tinymce {
+    min-height: 200px;
+  }
+  .rte-container iframe {
+    min-height: 180px;
+  }
 }

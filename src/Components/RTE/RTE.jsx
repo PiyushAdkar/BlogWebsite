@@ -1,5 +1,5 @@
 import React from "react";
-import {Editor} from "@tinymce/tinymce-react"
+import { Editor } from "@tinymce/tinymce-react";
 import {Controller} from 'react-hook-form'
 import "../RTE/RTE.css"
 
@@ -18,10 +18,12 @@ export default function RTE({name, control, label, defaultValue = ''})
                 apiKey="pyigh2psstozld3scjdwi3gksh90p7kfii32inhrrnfhy2a9" 
                 init=
                     {{
-                        height: 500,
+                        min_height: 200,
+                        max_height: 500,
                         width: "100%",
                         menubar: true,
                         plugins: [
+                                    'autoresize',
                                     'searchreplace',
                                     'visualblocks',
                                     'code',
