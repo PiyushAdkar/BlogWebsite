@@ -87,7 +87,7 @@ const PostForm = ()=>
     },[watch,slugTransform,setValue])
 
     return(
-            <form id="Form" onSubmit={handleSubmit(submit)}>
+            <form id="Form" onSubmit={handleSubmit(submit)} style={{marginTop:"50px"}}>
             <h2>{Post ? "Edit Post" : "Add Post"}</h2>
             <div className="form-content">
                 <div id='titlediv'>
